@@ -73,7 +73,7 @@ function App() {
   <>
   <Router>
   {/* <Navbar title="TExtUtils" aboutText="About Text" /> */}
-  <Navbar title="TExtAvatar" mode={mode} toggleMode={toggleMode} />
+  <Navbar title="TExtUtil" mode={mode} toggleMode={toggleMode} />
   <Alert alert= {alert}/>
   <div className="container my-3" >
     <Routes>

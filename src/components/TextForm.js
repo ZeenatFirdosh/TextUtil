@@ -11,6 +11,7 @@ export default function TextForm(props) {
     console.log("uppercase was clicked:" + text);
     let newText = " ";
     setText(newText);
+    props.showAlert("Text Cleared!","success");
   }
   const handleLoClick = ()=>{
     console.log("uppercase was clicked:" + text);
